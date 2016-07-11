@@ -1,4 +1,8 @@
 
+* {
+	box-sizing: border-box;
+}
+
 
 #wrapper {
 	text-align: center;
@@ -13,7 +17,7 @@
 
 
 .dropdown-1 {
-	float: left;
+	display: inline-block;
 	margin-left: 5px;
 	margin-right: 5px;
 	width: 45%;
@@ -21,15 +25,13 @@
 
 
 .dropdown-2 {
-	float: left;
+	display: inline-block;
 	margin-left: 5px;
 	margin-right: 5px;
 	width: 45%;
 }
 
-form {
 
-}
 
 
 select {
@@ -45,11 +47,28 @@ button {
 /*******-----LOGO-SECTION-----*******/
 
 .logo-section {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logos {
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
 
 }
 
+
 li {
-	display: inline-block;
-	width: 33%;
+
 	border: 1px solid red;
+	width: 88px;
+	height: 84px;
+	margin: 5px; 
+
 }
