@@ -1,3 +1,55 @@
-* {
-	
+
+
+#wrapper {
+	text-align: center;
+	max-width: 100%;
+}
+
+
+/*******-----DROPDOWN-SECTION-----*******/
+.dropdown-section {
+
+}
+
+
+.dropdown-1 {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 45%;
+}
+
+
+.dropdown-2 {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 45%;
+}
+
+form {
+
+}
+
+
+select {
+	width: 400px;
+
+}
+
+button {
+	width: 200px;
+	margin-top: 30px;
+}
+
+/*******-----LOGO-SECTION-----*******/
+
+.logo-section {
+
+}
+
+li {
+	display: inline-block;
+	width: 33%;
+	border: 1px solid red;
 }
