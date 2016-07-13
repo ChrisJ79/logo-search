@@ -32,14 +32,11 @@
 }
 
 
-
-
 select {
 	width: 400px;
-
 }
 
-button {
+#search {
 	width: 200px;
 	margin-top: 30px;
 }
@@ -65,10 +62,20 @@ button {
 
 
 li {
-
 	border: 1px solid red;
 	width: 88px;
 	height: 84px;
 	margin: 5px; 
-
 }
+
+
+
+
+
+
+
+
+
+
+
+

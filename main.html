@@ -9,38 +9,38 @@
 	<header></header>
 	<div id="wrapper">
 		<section class="dropdown-section">
-			<div class="dropdown-1">
-				<form>
+			<form>
+				<div class="dropdown-1">
 					<select name="program-type">
 						<option selected="selected">Program Type</option>
 						<option value="">Search All</option>				
-						<option value="">Scholarship Program</option>
-						<option value="">Loan Program</option>
+						<option value="sc">Scholarship Program</option>
+						<option value="lp">Loan Program</option>
 					</select>
-				</form>
-			</div>
-			<div class="dropdown-2">
-				<form>
+				</div>
+				<div class="dropdown-2">
 					<select name="education-level">
 						<option selected="selected">Education Level</option>
-						<option value="Search-All">Search All</option>	
+						<option value="">Search All</option>	
 						<option value="">Kindergarten</option>
 						<option value="">High School</option>
 					</select>
-				</form>
-			</div>
-			<button>SEARCH</button>
+				</div>
+				<button id="search">SEARCH</button>
+			</form>
 		</section>
 		<section class="logo-section">
 			<ul class="logos">
-				<li><img src="logos/aci-color.png"></li>
-				<li><img src="logos/aci-fade.png"></li>
-				<li><img src="logos/acm-color.png"></li>
-				<li><img src="logos/acm-fade.png"></li>
-				<li><img src="logos/afe-color.png"></li>
-				<li><img src="logos/afe-fade.png"></li>
+				<li id="aci-color"><img src="logos/aci-color.png"></li>
+				<li id="aci-fade"><img src="logos/aci-fade.png"></li>
+				<li id="acm-color"><img src="logos/acm-color.png"></li>
+				<li id="acm-fade"><img src="logos/acm-fade.png"></li>
+				<li id="afe-color"><img src="logos/afe-color.png"></li>
+				<li id="afe-fade"><img src="logos/afe-fade.png"></li>
 			</ul>
 		</section>
 	</div>
 </body>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 </html>
