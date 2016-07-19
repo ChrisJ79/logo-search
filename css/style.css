@@ -6,14 +6,13 @@
 
 #wrapper {
 	text-align: center;
-	max-width: 100%;
 }
 
+header {
+	text-align: center;
+}
 
 /*******-----DROPDOWN-SECTION-----*******/
-.dropdown-section {
-
-}
 
 
 .dropdown-1 {
@@ -43,11 +42,6 @@ select {
 
 /*******-----LOGO-SECTION-----*******/
 
-.logo-section {
-	margin: 0 auto;
-	text-align: center;
-}
-
 .logos {
 	margin-top: 5em;
 	margin-left: auto;
@@ -57,12 +51,20 @@ select {
 	flex-wrap: wrap;
 	justify-content: center;
 	list-style: none;
-
 }
 
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.active {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: filter 3s, -webkit-filter 3s;
+}
 
 li {
-	border: 1px solid red;
 	width: 88px;
 	height: 84px;
 	margin: 5px; 
